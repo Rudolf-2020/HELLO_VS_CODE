@@ -17,6 +17,9 @@ body {
 	div {
 		font-size: 20px;
 		//padding: 0px 0px 25px 0px;
+		@media (max-width:$md1+px){
+			margin: 0px 0px 0px 0px;
+		}
 	}
 }
 
