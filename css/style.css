@@ -1,0 +1,33 @@
+header {
+  margin: 0px 0px 20px 0px;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #555555;
+  font-size: 20px;
+}
+
+body h1 {
+  color: red;
+}
+
+body div {
+  font-size: 20px;
+}
+
+.red {
+  color: red;
+}
